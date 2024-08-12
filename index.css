@@ -1,0 +1,86 @@
+*{
+    text-align: center;
+}
+body{
+    background: url(imagens/fundo.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+    margin: -4% 0% 10% 0%;
+}
+.mainmenubtn {
+    width: 202px;
+    background-color: aliceblue;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+    padding:5px;
+}
+.mainmenubtn:hover {
+    background-color:white;
+    border-color: black;
+    border-width:1px 1px 0px 1px;
+    border-style: solid;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color:white;
+    border-radius: 0px 0px 10px 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    color: aliceblue;
+}
+.bandeira{
+    height: 300px;
+    margin:-272px -692px 172px 15px;
+    transition-duration: 0.5s;
+}
+.bandeira:hover{
+    height: 300px;
+    margin:-99px -692px -1px 15px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+header img{
+    height: 200px;
+    margin: 0px 0px 0px 0px;
+}
+footer{
+    padding: 4% 33% 1% 33%
+}
+footer div{
+    margin: 0% 0% 100% 0
+}
+.icone{
+    margin: 6px;
+    height: 35px;
+}
+.icone:hover{
+    height: 38px;
+}
+footer small{
+    text-align: center;
+}
+footer small img{
+    margin: 0 0 -2% 0;
+    height: 30px;
+} 
