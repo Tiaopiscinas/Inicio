@@ -1,0 +1,148 @@
+*{
+    text-align: center;
+}
+body{
+    background: url(imagens/fundo.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: -0.6% -0.6% 0% -0.6%;
+    height: 400px;
+}
+header{
+    background: url(imagens/fundo.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: -0.6% -0.6% 0% -0.6%;
+    height: 400px;
+}
+.mainmenubtn {
+    width: 202px;
+    background-color: white;
+    border-style: none;
+    padding:5px;
+}
+.mainmenubtn:hover {
+    background-color:aliceblue;
+}
+.dropdown {
+    margin:0px 0px 0px -652px;
+    position: absolute;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color:white;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    color: aliceblue;
+}
+.dropdown-child :hover{
+    color: rgb(151, 149, 240);
+    transition-duration: 1s;
+}
+.bandeira{
+    position: absolute;
+    height: 300px;
+    margin:-258px -692px 172px 310px;
+    transition-duration: 0.5s;
+}
+.bandeira:hover{
+    height: 300px;
+    margin:-99px -692px -1px 310px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+header img{
+    height: 200px;
+    padding: 100px 0px 0px 0px;
+}
+footer{
+    margin:.6% -0.6% 0% -0.6%;
+    background: url(imagens/fundo.avif) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 4% 33% 1% 33%
+}
+footer div{
+    margin: 0% 0% 10% 0%;
+}
+.icone{
+    margin: 6px;
+    height: 35px;
+}
+.icone:hover{
+    height: 38px;
+}
+.form{
+    padding: 5px 5px 15px;
+    margin-inline: 5px;
+    border-width: 0.7px;
+    border-radius: 10px;
+    background: darkgrey;
+}
+.botaoenv:hover{
+    background-color: rgb(92, 255, 155);
+    color: black;
+    width: 60px;
+    height: 25px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
+.cooperacao1{
+    margin: 3px;
+    color: black;
+    text-decoration: none;
+}
+.cooperacao1:hover{
+    margin: 3px;
+    color: rgb(20, 3, 255);
+    text-decoration:underline;
+}
+.cooperacao2{
+    margin: 7px;
+    color: black;
+    text-decoration: none;
+}
+.cooperacao2:hover{
+    margin: 7px;
+    color: rgb(20, 3, 255);
+    text-decoration:underline;
+}
+.cooperacao3{
+    margin: 7px;
+    color: black;
+    text-decoration: none;
+}
+.cooperacao3:hover{
+    margin: 7px;
+    color: rgb(20, 3, 255);
+    text-decoration:underline;
+}
+footer small{
+    font-size: 12px;
+    text-align: center;
+}
+footer small img{
+    margin: 0 0 -2% 0;
+    height: 25px;
+}
+footer p small{
+    font-size: 10px;
+}
