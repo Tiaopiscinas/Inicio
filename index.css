@@ -61,7 +61,7 @@ header{
 }
 .bandeira:hover{
     height: 300px;
-    margin:-87px -692px -1px 310px;
+    margin:-117px -692px -1px 310px;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
