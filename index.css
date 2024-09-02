@@ -61,12 +61,12 @@ header{
 }
 .bandeira:hover{
     height: 300px;
-    margin:-60px -692px -1px 310px;
+    margin:-160px -692px -1px 310px;
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
 header img{
-    height: 200px;
+    height: 140px;
     padding: 100px 0px 0px 0px;
 }
 footer{
